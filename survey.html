@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>HR SURVEY.COM</title>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+   <form action="survey.cgi" method="POST">
+ 
+           <h1 align=center>Questions and text here...</h1> <br>
+           <h3>Please enter your name:</h3>  
+            <input type="text" name="UserName" size=35 maxlength=50 value=""><br>
+            <h3>Please enter your base salary:</h3> 
+<input type="text" name="BaseSalary" size=15 maxlength=15 value="$"><br>
+<h3>Insert your resume in the box below:</h3>
+<TEXTAREA name="Comments" cols=60 rows=6></TEXTAREA><br>
+
+<h3>Enter your address in the box below:</h3>
+<TEXTAREA name="Comments" cols=30 rows=4 wrap="off" ></TEXTAREA><br>
+<h3>"How did you hear about this?"</h3>
+
+<p> 
+    <input type="radio" name="AppSource" value=1>Newspaper<br>
+    <input type="radio" name="AppSource" value=2>Recruiters<br>
+    <input type="radio" name="AppSource" value=3>Web Resume Banks<br>
+    <input type="radio" name="AppSource" value=4>Magazines<br>
+    </p>
+    <BR>
+      <h3> Select your state:</h3> 
+        <select name="State">
+        <OPTION VALUE=>
+        <OPTION VALUE=AL>Alabama
+        <OPTION VALUE=AK>Alaska
+        <OPTION VALUE=AZ>Arizona
+        <OPTION VALUE=PA>Pennsylvania
+        <OPTION VALUE=MN>Minnesota
+        </select>
+        <BR> 
+        <BR>
+      <h3>  Your Department:</h3>
+        <SELECT NAME="Department" ><OPTION>
+        <OPTION VALUE=1 >Accounting <OPTION VALUE=2 >Sales
+        <OPTION VALUE=3 >Marketing
+        <OPTION VALUE=4 >Administration
+        <OPTION VALUE=5 >Field Service
+        </SELECT>
+        <BR> 
+        <BR>
+        <h3>Years of Service</h3>
+        <SELECT NAME="Service" ><OPTION>
+        <OPTION VALUE=1 >0 - 5 years
+        <OPTION VALUE=2 >6 - 10 years
+        <OPTION VALUE=3 >11 - 15 years
+        <OPTION VALUE=4 >16 - 20 years
+        <OPTION VALUE=5 >21 - 25 years
+        <OPTION VALUE=6 >26 - 30 years
+        <OPTION VALUE=7 >31 plus years
+        </SELECT>
+        <BR> 
+        <BR>
+       <h3> Age (optional)</h3>
+        <SELECT NAME="MyAge" ><OPTION>
+        <OPTION VALUE=1 >Less than 20 yrs
+        <OPTION VALUE=2 >20 - 25 yrs
+        <OPTION VALUE=3 >26 - 30 yrs
+        <OPTION VALUE=4 >31 - 35 yrs
+        <OPTION VALUE=5 >36 - 40 yrs
+        <OPTION VALUE=6 >41 - 45 yrs
+        <OPTION VALUE=7 >46 - 50 yrs
+        <OPTION VALUE=8 >51 - 55 yrs
+        <OPTION VALUE=9 >56 - 60 yrs
+        <OPTION VALUE=10 >61 plus
+        </SELECT>
+         
+        <BR>
+            <BR>
+ 
+                <input type=submit value="submit">
+                <input type=submit value="Save">
+                <input type=submit value="Cancel">
+                
+                 
+                <BR>
+   </form>
+</body>
+</html>
